@@ -47,7 +47,7 @@ architecture Behavioral of ADC_Controller1 is
     -- reloj dividido
     signal clkDiv : std_logic;
 
-    -- señales internas
+    -- seÃ±ales internas
     signal enShift  : std_logic;
     signal bit_cnt  : std_logic_vector(4 downto 0);
 
