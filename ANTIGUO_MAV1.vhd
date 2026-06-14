@@ -34,7 +34,7 @@ use IEEE.NUMERIC_STD.ALL;
 entity MAV1 is
 
     Generic (
-        N : integer := 4096  -- número de muestras
+        N : integer := 4096  -- nÃºmero de muestras
     );
     Port ( clk : in STD_LOGIC;
            rst : in STD_LOGIC;
@@ -67,7 +67,7 @@ begin
 --                    count <= count + 1;
 
                     if count = N-1 then
-                        -- división por N (4096 = 2^12 shift)
+                        -- divisiÃ³n por N (4096 = 2^12 shift)
                         mav_reg <= acc(23 downto 12);
                        
                         acc <= (others => '0');
