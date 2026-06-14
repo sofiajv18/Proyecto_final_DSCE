@@ -50,7 +50,7 @@ architecture Behavioral of MAV_FREQ_TOP is
     
     component MAV1 is
         Generic (
-            N : integer := 4096-- -- número de muestras
+            N : integer := 4096-- -- nÃºmero de muestras
         );
         Port ( clk : in STD_LOGIC;
                rst : in STD_LOGIC;
